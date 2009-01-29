@@ -1,8 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-<head>
-<title>wewt htmlOS</title>
-</head>
-<body>
-HALLO WORLD
-</body>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>webOS</title>
+		<style type="text/css" media="screen">
+			@import "css/general.css";
+			@import "css/ui.css";
+		</style>
+		<script src="js/prototype.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/effects.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/kernel.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			document.observe('dom:loaded', function() {
+				var kernel = new Kernel();
+				kernel.init();
+			});
+		</script>
+	</head>
+	<body id="webos">
+		
+	</body>
 </html>

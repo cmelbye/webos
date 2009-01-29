@@ -1,0 +1,22 @@
+.loading {
+    background-color: #303030;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.centered {
+    margin: 40px auto 10px auto;
+    padding: 30px 10px 0 10px;
+    text-align: center;
+}
+
+.accent {
+    font-size: 15px;
+    color: #fff;
+}
+
+.spinner {
+    background-image: url(../images/spinner.gif);
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+}
