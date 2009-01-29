@@ -14,5 +14,6 @@ var Kernel = Class.create({
         })
         $('webos').insert( loading );
         var e = setTimeout('Effect.DropOut(\'' + ui.options.id +'\');', 5000);
+        var taskbar = new Effect.BlindDown('taskbar');
     }
 });

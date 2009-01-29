@@ -8,3 +8,15 @@ body {
     font-size: 76%;
     background-color: #101010;
 }
+
+div#taskbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #303030;
+    width: 100%;
+}
+
+div#taskbar div {
+    padding: 10px;
+}
