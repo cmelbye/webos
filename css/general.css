@@ -48,13 +48,14 @@ div#appmenu ul {
 div#appmenu ul li {
     border-bottom: 1px solid #101010;
     color: #fff;
-    padding: 10px 10px 10px 30px;
+    padding: 0 0 0 0;
 }
 
 div#appmenu ul li a {
     color: #fff;
     padding: 10px 10px 10px 30px;
     text-decoration: none;
+    display: block;
 }
 
 div#appmenu ul li a:hover {
