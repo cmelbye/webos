@@ -15,8 +15,20 @@ div#taskbar {
     left: 0;
     background-color: #303030;
     width: 100%;
+    color: #fff;
 }
 
 div#taskbar div {
     padding: 10px;
+}
+
+div#taskbar div a.start {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+div#taskbar div a.start:hover {
+    background-color: #808080;
 }

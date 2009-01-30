@@ -13,7 +13,8 @@ var Kernel = Class.create({
             accent: true
         })
         $('webos').insert( loading );
-        var e = setTimeout('Effect.DropOut(\'' + ui.options.id +'\');', 5000);
-        var taskbar = new Effect.BlindDown('taskbar');
+        var e = setTimeout(
+            "Effect.DropOut('" + ui.options.id + "');" +
+            "Effect.BlindDown('taskbar');", 5000);
     }
 });
