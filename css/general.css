@@ -22,13 +22,41 @@ div#taskbar div {
     padding: 10px;
 }
 
-div#taskbar div a.start {
-    font-weight: bold;
+div#taskbar div a#start {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    font-size: 12px;
 }
 
-div#taskbar div a.start:hover {
+div#taskbar div a#start:hover {
+    background-color: #808080;
+}
+
+div#appmenu {
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    background-color: #303030;
+    width: 250px;
+}
+
+div#appmenu ul {
+    list-style-type: none;
+}
+
+div#appmenu ul li {
+    border-bottom: 1px solid #101010;
+    color: #fff;
+    padding: 10px 10px 10px 30px;
+}
+
+div#appmenu ul li a {
+    color: #fff;
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+}
+
+div#appmenu ul li a:hover {
     background-color: #808080;
 }

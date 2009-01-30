@@ -13,8 +13,14 @@ var Kernel = Class.create({
             accent: true
         })
         $('webos').insert( loading );
+        
+        // Setup Start Button
+        $('start').observe('click', function() {
+			$('appmenu').toggle();
+		});
+        
         var e = setTimeout(
             "Effect.DropOut('" + ui.options.id + "');" +
-            "Effect.BlindDown('taskbar');", 5000);
+            "Effect.BlindDown('taskbar');", 1000);
     }
 });
