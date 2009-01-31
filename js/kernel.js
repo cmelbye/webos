@@ -16,7 +16,13 @@ var Kernel = Class.create({
         
         // Setup Start Button
         $('start').observe('click', function() {
-			$('appmenu').toggle();
+            if( $('appmenu').visible() ) {
+                Effect.BlindUp('appmenu');
+                hide();
+            } else {
+                Effect.BlindDown('appmenu');
+                show();
+            }
 		});
         
         var e = setTimeout(
