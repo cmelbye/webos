@@ -23,15 +23,16 @@ div#taskbar div {
     padding: 10px;
 }
 
-div#taskbar div a#start {
+div#taskbar div span#start {
     color: #fff;
     text-decoration: none;
     padding: 10px;
     font-size: 12px;
 }
 
-div#taskbar div a#start:hover {
+div#taskbar div span#start:hover {
     background-color: #808080;
+    cursor: pointer;
 }
 
 div#appmenu {
@@ -52,13 +53,14 @@ div#appmenu ul li {
     padding: 0 0 0 0;
 }
 
-div#appmenu ul li a {
+div#appmenu ul li span {
     color: #fff;
     padding: 10px 10px 10px 30px;
     text-decoration: none;
     display: block;
 }
 
-div#appmenu ul li a:hover {
+div#appmenu ul li span:hover {
     background-color: #808080;
+    cursor: pointer;
 }
